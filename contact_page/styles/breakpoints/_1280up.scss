@@ -1,0 +1,19 @@
+/******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+.header__menu {
+    display: block;
+  }
+
+  .cube {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: none;
+  
+    &__sub {
+        margin: 50px auto;
+  
+    }
+  }

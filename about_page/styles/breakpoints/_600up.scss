@@ -1,0 +1,36 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+.swiper-container {
+    width: 600px;
+}
+
+.name-slide {
+    height: 500px;
+
+    .x-logo {
+        display: block;
+    }
+
+    .name {
+        &__full {
+            font-size: 7em;
+          
+        }
+    }
+}
+
+
+.swiper-container {
+
+    .main-title {
+
+        &.history-text {
+            font-size: 2.4em;
+        }
+        
+    }
+
+}
