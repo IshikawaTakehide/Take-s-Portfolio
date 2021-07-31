@@ -1,0 +1,43 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+#header {
+
+  .menu-btn {
+      display: none;
+  }
+
+  &__logo-area {
+      width: 300px;
+      height: 100px;
+      font-size: 2rem;
+      color: $cwhite;
+      
+      span {
+          color: $cwhite;
+      }
+      
+  }
+}
+
+.header__menu {
+  display: block;
+}
+
+.main-text {
+  width: 100%;
+  height: auto;
+  color: $cwhite;
+
+  .main-title {
+      margin-top: 30px;
+      font-size: 1.6em;
+
+  }
+
+  .sub-text {
+      font-size: 1.4em;
+  }
+}
