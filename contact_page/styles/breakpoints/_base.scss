@@ -58,6 +58,7 @@ a {
         transform: translateX(900px);
         opacity: 0;
         transition: transform 1s;
+        list-style: none;
     }
 
 }
@@ -288,6 +289,7 @@ a {
     text-align: center;
 
     & > a {
+        position: relative;
         display: block;
         width: 100px;
         height: 80px;
@@ -299,7 +301,6 @@ a {
 .twitter-text {
     display: block;
     font-size: 1.5em;
-    // padding: -50%;
 }
 
 .free-space {
