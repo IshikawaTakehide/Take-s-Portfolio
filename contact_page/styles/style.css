@@ -295,19 +295,22 @@ a {
   font-weight: 600;
 }
 
-.contact__twitter {
+.contact__twitter,
+.contact__form {
   margin-top: 15px;
   text-align: center;
 }
 
-.contact__twitter > a {
+.contact__twitter > a,
+.contact__form > a {
   display: block;
   width: 100px;
   height: 80px;
   margin: 0 auto;
 }
 
-.twitter-text {
+.twitter-text,
+.contact-text {
   display: block;
   font-size: 1.5em;
 }
