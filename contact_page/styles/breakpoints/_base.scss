@@ -289,11 +289,9 @@ a {
     text-align: center;
 
     & > a {
-        position: relative;
         display: block;
         width: 100px;
         height: 80px;
-        z-index: 3;
         margin: 0 auto;
     }
 }

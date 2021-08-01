@@ -56,6 +56,7 @@ a {
   transition: -webkit-transform 1s;
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
+  list-style: none;
 }
 
 #header {
@@ -297,6 +298,13 @@ a {
 .contact__twitter {
   margin-top: 15px;
   text-align: center;
+}
+
+.contact__twitter > a {
+  display: block;
+  width: 100px;
+  height: 80px;
+  margin: 0 auto;
 }
 
 .twitter-text {
