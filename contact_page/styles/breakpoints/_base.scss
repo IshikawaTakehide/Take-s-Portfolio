@@ -284,7 +284,8 @@ a {
     font-weight: 600;
 }
 
-.contact__twitter {
+.contact__twitter,
+.contact__form {
     margin-top: 15px;
     text-align: center;
 
@@ -296,7 +297,8 @@ a {
     }
 }
 
-.twitter-text {
+.twitter-text,
+.contact-text {
     display: block;
     font-size: 1.5em;
 }
