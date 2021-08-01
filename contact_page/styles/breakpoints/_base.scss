@@ -286,6 +286,13 @@ a {
 .contact__twitter {
     margin-top: 15px;
     text-align: center;
+
+    & > a {
+        display: block;
+        width: 100px;
+        height: 80px;
+        margin: 0 auto;
+    }
 }
 
 .twitter-text {
