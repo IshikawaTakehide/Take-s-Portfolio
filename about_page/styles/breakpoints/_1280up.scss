@@ -36,11 +36,19 @@ Stylesheet: 1280px以上のモニタで適用
 .swiper-container {
 
     .main-title {
+        font-size: 2.4em;
 
         &.history-text {
             font-size: 2.4em;
         }
-        
     }
-
 }
+
+.content {
+    .myself {
+        > .main-title {
+            font-size: 3em;
+           
+        }
+    }
+  }

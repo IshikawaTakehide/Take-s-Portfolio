@@ -318,8 +318,10 @@ a {
 }
 
 .main-text {
-    width: 100%;
+    width: 90%;
     height: auto;
+    // padding: 0 15px;
+    margin: 0 auto;
     color: $cwhite;
 
     .main-title {

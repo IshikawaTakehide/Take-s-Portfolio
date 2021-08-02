@@ -288,6 +288,10 @@ a {
   margin: 0 auto;
 }
 
+.contact-area > img {
+  z-index: -1;
+}
+
 .main-title {
   text-align: center;
   color: white;

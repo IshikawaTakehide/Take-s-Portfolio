@@ -70,7 +70,7 @@ a {
           transform: translate(-50%, -80%);
   text-align: center;
   color: white;
-  font-size: 2.4em;
+  font-size: 1.9em;
   font-weight: 600;
 }
 
@@ -525,7 +525,7 @@ a {
 
 .content .myself > .main-title {
   display: inline-block;
-  font-size: 3em;
+  font-size: 2em;
   color: white;
   text-align: center;
   vertical-align: text-bottom;
@@ -686,8 +686,14 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   .name-slide .name__full {
     font-size: 7em;
   }
+  .swiper-container .main-title {
+    font-size: 2.4em;
+  }
   .swiper-container .main-title.history-text {
     font-size: 2.4em;
+  }
+  .content .myself > .main-title {
+    font-size: 3em;
   }
 }
 
@@ -721,8 +727,14 @@ Stylesheet: 960px以上のモニタで適用
   .name-slide .name__full {
     font-size: 7em;
   }
+  .swiper-container .main-title {
+    font-size: 2.4em;
+  }
   .swiper-container .main-title.history-text {
     font-size: 2.4em;
+  }
+  .content .myself > .main-title {
+    font-size: 3em;
   }
 }
 
@@ -759,8 +771,14 @@ Stylesheet: 1280px以上のモニタで適用
   .name-slide .name__full {
     font-size: 7em;
   }
+  .swiper-container .main-title {
+    font-size: 2.4em;
+  }
   .swiper-container .main-title.history-text {
     font-size: 2.4em;
+  }
+  .content .myself > .main-title {
+    font-size: 3em;
   }
 }
 /*# sourceMappingURL=style.css.map */

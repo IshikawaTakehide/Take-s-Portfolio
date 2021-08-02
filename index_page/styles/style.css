@@ -336,8 +336,9 @@ a {
 }
 
 .main-text {
-  width: 100%;
+  width: 90%;
   height: auto;
+  margin: 0 auto;
   color: white;
 }
 
@@ -567,7 +568,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 
 ******************************************************************/
   .main-text {
-    width: 100%;
+    width: 90%;
     height: auto;
     color: white;
   }
@@ -602,7 +603,7 @@ Stylesheet: 960px以上のモニタで適用
     display: block;
   }
   .main-text {
-    width: 100%;
+    width: 90%;
     height: auto;
     color: white;
   }
@@ -625,7 +626,7 @@ Stylesheet: 1280px以上のモニタで適用
     display: block;
   }
   .main-text {
-    width: 100%;
+    width: 90%;
     height: auto;
     color: white;
   }
