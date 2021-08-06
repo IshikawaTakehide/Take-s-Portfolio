@@ -695,6 +695,9 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   .content .myself > .main-title {
     font-size: 3em;
   }
+  .main-title.text-important {
+    font-size: 2.3em;
+  }
 }
 
 @media (min-width: 960px) {
@@ -735,6 +738,9 @@ Stylesheet: 960px以上のモニタで適用
   }
   .content .myself > .main-title {
     font-size: 3em;
+  }
+  .main-title.text-important {
+    font-size: 2.3em;
   }
 }
 
@@ -779,6 +785,9 @@ Stylesheet: 1280px以上のモニタで適用
   }
   .content .myself > .main-title {
     font-size: 3em;
+  }
+  .main-title.text-important {
+    font-size: 2.3em;
   }
 }
 /*# sourceMappingURL=style.css.map */
